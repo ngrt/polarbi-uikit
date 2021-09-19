@@ -129,17 +129,6 @@ const PanelFooter: React.FC<Props> = ({
             </Button>
           }
         >
-          {langs.map((lang) => (
-            <MenuButton
-              key={lang.code}
-              fullWidth
-              onClick={() => setLang(lang)}
-              // Safari fix
-              style={{ minHeight: "32px", height: "auto" }}
-            >
-              {lang.language}
-            </MenuButton>
-          ))}
         </Dropdown>
       </SettingsEntry>
     </Container>
