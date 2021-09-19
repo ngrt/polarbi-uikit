@@ -121,15 +121,6 @@ const PanelFooter: React.FC<Props> = ({
             <MoonIcon color={isDark ? "text" : "textDisabled"} width="24px" />
           </Flex>
         </Button>
-        <Dropdown
-          position="top-right"
-          target={
-            <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
-              <Text color="textSubtle">{currentLang?.toUpperCase()}</Text>
-            </Button>
-          }
-        >
-        </Dropdown>
       </SettingsEntry>
     </Container>
   );
