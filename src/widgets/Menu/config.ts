@@ -117,20 +117,14 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/PolArbiFarm",
-      },
-    ],
+    href: "https://t.me/PolArbiFarm",
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
     href: "https://twitter.com/PolArbiFarm",
-  }
+  },
 ];
-
 
 export const MENU_HEIGHT = 64;
 export const MENU_ENTRY_HEIGHT = 48;
